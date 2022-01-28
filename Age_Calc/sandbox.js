@@ -1,3 +1,9 @@
+//Variables for current date
+let nowDate = new Date;
+let nyear = nowDate.year;
+let nmonth = nowDate.month;
+let nday = nowDate;
+
 // Function to calculate a user's age
 let calc = (year, month) =>{
 
