@@ -1,0 +1,41 @@
+<html lang="en">
+<head>    
+    <title>Calculator</title>
+    <link rel = 'stylesheet' href = 'styles.css'>
+</head>
+<body>
+    <!-- Header for navigation -->
+    <header>
+        <ul class = 'calc'>
+            <li>Calculator</li>
+            <li>Summary</li>
+        </ul>
+    </header>
+
+    <!-- Main section for data input -->
+    <main>
+        <section class = 'input'>
+            <!-- Title section -->
+            <h1>BMI <br/> Calculator</h1>
+
+            <!-- Input section for user data -->
+            <div class = 'entry'>
+                <div class = 'height'>                
+                    <input name = 'height' type = 'number' placeholder = 'Height' min = '0' max = '300'>
+                </div>
+                <div class = 'weight'>                
+                    <input name = 'weight' type = 'number' placeholder = 'Weight' min = '0' max = '700'>
+                </div>
+                <div class = 'age'>                
+                    <input name = 'age' type = 'number' placeholder = 'Age' min = '0' max = '140'>
+                </div>
+            </div>
+            
+            <!-- Button section -->
+            <button> Calculate</button>
+        </section>
+    </main>
+
+    <script src = 'sandbox.js'></script>
+</body>
+</html>
