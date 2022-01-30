@@ -1,9 +1,9 @@
 //My code test
-/* let word = 'Bone';
+/* let word = 'hi';
+let reverse = '';
 
-let reverse;
-
-for (let i = 0; i < word.length; i++){
+for (let i = word.length; i >= 0 ; i--){
+    
     reverse += word[i];
 }
 
