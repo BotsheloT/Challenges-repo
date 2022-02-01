@@ -38,4 +38,11 @@ let bSearch = (items, target) =>{
     return null;
 }
 
-//Recursion example
+// Recursive Linear Search Algorithm
+let rSearch = (items[i], target) =>{    
+    if (item[i] != target){
+        i ++;
+        return -1;
+    } else 
+    rSearch;     
+}
