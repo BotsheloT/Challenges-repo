@@ -20,4 +20,22 @@ let linearS = (items, target) =>{
 
 
 //Binary Search Algorithm
+let bSearch = (items, target) =>{
+    let first = 0;
+    let last = items.length;
 
+    while (first <= last){
+        let middle = Math.floor((last + 1) /2);
+
+        if (item[middle] === target){
+            return middle;
+        } else if(item[middle] > target){
+            last = middle -1;
+        } else if (item[middle] < target){
+            first = middle + 1;
+        }
+    }
+    return null;
+}
+
+//Recursion example
