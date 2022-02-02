@@ -7,14 +7,13 @@ let calc = (bDate) =>{
     let nDay = nowDate.getDay;
 
     //Age calculation
-    if(nMonth < bDate.month){
+    if((nYear > bDate.year) && (nMonth < bDate.month)){
         return nYear - (bDate.year -1);
     } else if (nMonth > bDate.month){
         return nYear - bDate.year;
-    } else if ((nMonth == month) && (nDay <= bDate.getDay)){
+    } else if ((nMonth == bDate.month) && (nDay <= bDate.getDay)){
         return nYear - bDate.year;
-    } else return nYear - (bDate.year -1);
-            
+    } else return nYear - (bDate.year -1);            
 }
 
 //Variable for button selection using DOM
