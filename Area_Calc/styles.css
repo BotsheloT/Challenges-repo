@@ -12,7 +12,8 @@ header{
     padding: 0;
 }
 
-.items li{
+/* Circle item styles */
+.circleItems li{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -22,14 +23,44 @@ header{
     padding: 0;    
 }
 
-.items li:first-of-type{
+.circleItems li:first-of-type{
     margin-left: 0;
     padding: 0;
     color: coral;
 }
 
-.items li:hover{
+.circleItems li:hover{
     color: rgb(253, 174, 145);
 }
 
+/* Square item styles */
+.sqaureItems li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 0;    
+}
+
+.circleItems li:first-of-type{
+    margin-left: 0;
+    padding: 0;
+    color: coral;
+}
+
+.circleItems li:hover{
+    color: rgb(253, 174, 145);
+}
+
+
 /* Main section styles */
+section{
+    height: 550px;
+    width: 450px;    
+    background-color: lightgrey;
+    border-radius: 50px;
+    margin-top: 20px;    
+    margin: 2% auto;
+}
