@@ -1,8 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #fff;
 }
 
+/* Header styles */
 header{
     height: 50px;
     width: auto;
@@ -22,4 +24,12 @@ header{
 
 .items li:first-of-type{
     margin-left: 0;
+    padding: 0;
+    color: coral;
 }
+
+.items li:hover{
+    color: rgb(253, 174, 145);
+}
+
+/* Main section styles */
