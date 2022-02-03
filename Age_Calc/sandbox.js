@@ -2,18 +2,18 @@
 let calc = (bDate) =>{
     //Variables for current date
     let nowDate = new Date;
-    let nYear = nowDate.year;
-    let nMonth = nowDate.month;
-    let nDay = nowDate.getDay;
+    let nYear = number(nowDate.year);
+    let nMonth = number(nowDate.month);
+    let nDay = number(nowDate.getDay);
 
     //Age calculation
-    if((nYear > bDate.year) && (nMonth < bDate.month)){
-        return nYear - (bDate.year -1);
-    } else if (nMonth > bDate.month){
-        return nYear - bDate.year;
-    } else if ((nMonth == bDate.month) && (nDay <= bDate.getDay)){
-        return nYear - bDate.year;
-    } else return nYear - (bDate.year -1);            
+    if((nYear > number(bDate.year)) && (nMonth < number(bDate.month))){
+        return nYear - number((bDate.year -1));
+    } else if (nMonth > numbner(bDate.month)){
+        return nYear - number(bDate.year);
+    } else if ((nMonth == number(bDate.month)) && (nDay <= number(bDate.getDay))){
+        return nYear - number(bDate.year);
+    } else return nYear - number((bDate.year -1));            
 }
 
 //Variable for button selection using DOM
