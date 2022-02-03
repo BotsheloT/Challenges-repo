@@ -13,6 +13,15 @@ header{
     margin: 0px;
 }
 
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(253, 174, 145);
+}
+
 /* Circle item styles */
 .circleItems li{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -21,18 +30,13 @@ header{
     display: inline-block;
     margin-left: 20px;
     margin-top: 20px;
-    padding: 0;
-    text-align: center;    
+    padding: 0;    
 }
 
 .circleItems li:first-of-type{
     margin-left: 0;
     padding: 0;
     color: coral;
-}
-
-.circleItems li:hover{
-    color: rgb(253, 174, 145);
 }
 
 /* Square item styles */
@@ -46,14 +50,12 @@ header{
     padding: 0;    
 }
 
+
+
 .focus{
     margin-left: 0;
     padding: 0;
     color: coral;
-}
-
-.squareItems li:hover{
-    color: rgb(253, 174, 145);
 }
 
 /* Triangle item styles */
@@ -72,11 +74,6 @@ header{
     padding: 0;
     color: coral;
 }
-
-.triItems li:hover{
-    color: rgb(253, 174, 145);
-}
-
 
 /* Main section styles */
 section{
