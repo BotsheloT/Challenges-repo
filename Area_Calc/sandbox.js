@@ -10,3 +10,8 @@ const triArea = (base, height) => {
 }
 
 //Variables for buttons
+let cButton = document.querySelector('.cirlce_calc');
+let sButton = document.querySelector('.squ_calc');
+let tButton = document.querySelector('.tri_calc');
+
+//Circle Area Calculation
