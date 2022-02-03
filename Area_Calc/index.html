@@ -24,6 +24,22 @@
         <button class = cirlce_calc>Calculate</button>
     </section>
     <!-- Javascript Document reference -->
-    <script src= 'sandbox.js'></script>
+    <script>
+        //Function for cirlce area calculation
+        const calcArea = radius => (Math.PI * radius**2).toFixed(3);
+
+        //Variable for button
+        let cButton = document.querySelector('.cirlce_calc');
+
+        // Code for button click
+        cButton.onclick = function(){
+            let rad = document.querySelector('input').value;
+
+            let ar = calcArea(rad);
+
+            alert(`The Area of this Cirlce is ${ar}cm square`);
+            ar = 0;
+        }
+    </script>
 </body>
 </html>

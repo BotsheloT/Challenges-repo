@@ -21,11 +21,30 @@
         <br>
         <input type = 'number' placeholder = 'Base Length'>        
         <br>
-        <input type = 'number' placeholder = 'Height Length'>
+        <input type = 'number' class = 'second' placeholder = 'Height Length'>
         <br>
         <button class = tri_calc>Calculate</button>
     </section>
-    <!-- Javascript Document reference -->
-    <script src= 'sandbox.js'></script>
+    <!-- Javascript Code -->
+    <script>
+        //Function to calculate triangle area
+        const triArea = (base, height) => {
+            return 0.5*base*height;
+        }
+
+        //Variable for button
+        let tButton = document.querySelector('.tri_calc');
+
+        // Code for button click
+        tButton.onclick = function(){
+            let base = document.querySelector('input').value;
+            let height = document.querySelector('.second').value;
+
+            let ar = triArea(base, height);
+
+            alert(`The Area of this Triangle is ${ar}cm square`);
+            ar = 0;
+        }
+    </script>
 </body>
 </html>

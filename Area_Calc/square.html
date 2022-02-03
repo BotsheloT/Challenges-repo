@@ -23,7 +23,25 @@
         <br>
         <button class = squ_calc>Calculate</button>
     </section>
-    <!-- Javascript Document reference -->
-    <script src= 'sandbox.js'></script>
+
+    <!-- Javascript Code-->
+    <script>
+        //Function for square area calculation
+        const squareArea = side => side**2;
+
+        //Variable for button
+        let sButton = document.querySelector('.squ_calc');
+
+        // Code for button click
+        sButton.onclick = function(){
+            let side = document.querySelector('input').value;
+
+            let ar = squareArea(side);
+
+            alert(`The Area of this Square is ${ar}cm square`);
+            ar = 0;
+
+}
+    </script>
 </body>
 </html>
