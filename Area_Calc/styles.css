@@ -89,3 +89,138 @@ section{
     margin-top: 20px;    
     margin: 2% auto;
 }
+
+/* Circle page styles */
+.circ{
+    text-align: center;
+}
+
+.circ h1{
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+
+.circ img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.circ input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(177, 176, 176);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.circ button{
+    height: 30px;
+    width: 250px;
+    font-size: medium;
+    border-width: 0px;
+    background-color: coral;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.circ button:hover{
+    color: coral;
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: coral;
+    font-weight: 900;
+}
+
+/* Square page styles */
+.squ{
+    text-align: center;
+}
+
+.squ h1{
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+
+.squ img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.squ input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(177, 176, 176);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.squ button{
+    height: 30px;
+    width: 250px;
+    font-size: medium;
+    border-width: 0px;
+    background-color: coral;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.squ button:hover{
+    color: coral;
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: coral;
+    font-weight: 900;
+}
+
+/* Triangle page styles */
+.tri{
+    text-align: center;
+}
+
+.tri h1{
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+
+.tri img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.tri input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgb(177, 176, 176);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.tri button{
+    height: 30px;
+    width: 250px;
+    font-size: medium;
+    border-width: 0px;
+    background-color: coral;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.tri button:hover{
+    color: coral;
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: coral;
+    font-weight: 900;
+}

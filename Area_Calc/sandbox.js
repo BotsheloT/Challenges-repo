@@ -8,3 +8,5 @@ const squareArea = side => side**side;
 const triArea = (base, height) => {
     return 0.5*base*height;
 }
+
+//Variables for buttons
