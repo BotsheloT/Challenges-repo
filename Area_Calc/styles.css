@@ -19,7 +19,7 @@ header a {
 }
 
 header a:hover{
-    color: rgb(253, 174, 145);
+    background-color: rgb(253, 174, 145);
 }
 
 /* Circle item styles */
@@ -35,8 +35,7 @@ header a:hover{
 
 .circleItems li:first-of-type{
     margin-left: 0;
-    padding: 0;
-    color: coral;
+    padding: 0;    
 }
 
 /* Square item styles */
@@ -64,7 +63,8 @@ header a:hover{
     display: inline-block;
     margin-left: 20px;
     margin-top: 20px;
-    padding: 0;    
+    padding: 0;
+        
 }
 
 .triItems li:first-of-type{
@@ -77,15 +77,18 @@ header a:hover{
 .focus{
     margin-left: 0;
     padding: 0;
-    color: coral;    
+    background-color: coral;
+    border-radius: 20px;
+    color: black;
+    height: 35px;    
+    width: 100px;
 }
 
 /* Main section styles */
 section{
     height: 550px;
     width: 450px;    
-    background-color: lightgrey;
-    border-radius: 50px;
+    background-color: lightgrey;    
     margin-top: 20px;    
     margin: 2% auto;
 }
@@ -101,7 +104,6 @@ section{
 }
 
 .circ img{
-    border-radius: 20px;
     margin-bottom: 20px;
 }
 
@@ -145,8 +147,7 @@ section{
     padding-top: 25px;
 }
 
-.squ img{
-    border-radius: 20px;
+.squ img{    
     margin-bottom: 20px;
 }
 
@@ -190,8 +191,7 @@ section{
     padding-top: 25px;
 }
 
-.tri img{
-    border-radius: 20px;
+.tri img{    
     margin-bottom: 20px;
 }
 
