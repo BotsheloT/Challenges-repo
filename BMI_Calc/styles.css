@@ -8,7 +8,11 @@ body{
 /* Header styles */
 header{
     width: auto;
-    height: 20px;
+    height: 0px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 li{
@@ -25,12 +29,13 @@ li{
 
 .calc li:first-of-type{
     color: rgb(252, 226, 79);
+    margin-left: 0px;
 }
 
 /* Main section styles */
 main{
     background: url('images/bg.jpg');
-    height: 723px;
+    height: 800px;
 }
 .input{
     height: 500;
@@ -38,7 +43,7 @@ main{
     background-color: rgb(223, 223, 223);
     border-radius: 20px;
     text-align: center;
-    margin: 50px 200px;        
+    margin: 8% auto;    
 }
 
 .input h1{
