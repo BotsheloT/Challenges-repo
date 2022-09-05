@@ -31,6 +31,10 @@ input.itext {
     border: none;
     border-radius: 3px;
 }
+
+li{
+    display: inline;
+}
 input[type = "checkbox"]{
     border-color: blue;
 }
@@ -42,11 +46,28 @@ label{
 }
 
 button{
+    text-decoration: underline;
+    background: none;
+    color: white;
+    border: none;
+    transition-duration: 0.1s;
+}
+
+button:hover{
+    color: rgb(223, 223, 223);
+}
+
+button.final{
     height: 30px;
     width:150px;
     size: large;
     background-color: blue;
     color: white;
     border: none;
+    transition-duration: 0.1s;
     
+}
+
+button.final:hover{    
+    background-color: rgb(76, 76, 255);
 }
